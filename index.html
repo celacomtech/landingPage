@@ -23,29 +23,32 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=401412501123996&autoLogAppEvents=1" nonce="v3fPZvll"></script>
     <!-- Navigation -->
-    <nav class="navbar static-top bg-light">
+    <nav class="navbar static-top">
+        <div class="container">
+            <div class="row">
+                <div class="fb-page" data-href="https://www.facebook.com/celacomtech/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/celacomtech/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/celacomtech/">CELAcom Technologies</a></blockquote></div>
+            </div>
+
+        </div>
+
         <!--<nav class="navbar static-top"style="background-color:#F8B133;">-->
         <div class="container">
-            <a class="navbar-brand text-blue text-uppercase font-weight-bold" href="#" style="text-decoration:none;color:#213262"></a>
-            <!--<a class="btn btn-primary" href="#">Sign In</a>-->
-            <address>
+            <a class="navbar-brand text-blue text-uppercase font-weight-bold" href="#" style="text-decoration:none;color:#213262">
+            </a>
+            <!--<a class="btn btn-primary" href="#">WebDevelopment</a>
+            <a class="btn btn-primary" href="#">Sign In</a>
+            <a class="btn btn-primary" href="#">Sign In</a>-->
+            <p class="text-muted small mb-4 mb-lg-0">
                 <i class="fa fa-phone fa-1x fa-fw"></i>
-                <a href="8035204003" style="text-decoration:none;color:#213262"> (803)520-4003</a>
+                <a href="tel:+8035204003" style="text-decoration:none;color:#213262"> (803)520-4003</a>
                 <i class="fa fa-map fa-1x fa-fw"></i>
 
-                <a href="5483 sunset blvd, Lexington SC 29072" style="text-decoration:none;color:#213262"> 5483 Sunset Blvd Ste. K , Lexington SC </a>
+                <a href="http://maps.google.com/?q=5483 sunset blvd, Lexington SC 29072" style="text-decoration:none;color:#213262"> Lexington SC </a>
+            </p>
 
-                <!--<a href="http://www.facebook.com/celacomtech" target="_blank">
-                    <i class="fab fa-facebook fa-1x fa-fw"></i>
-                </a>
-                <a href="http://www.twitter.com/celacomtech" target="_blank">
-                    <i class="fab fa-twitter fa-1x fa-fw"></i>
-                </a>
-                <a href="http://www.instagram.com/celacomtech" target="_blank">
-                    <i class="fab fa-instagram fa-1x fa-fw"></i>
-                </a>-->
-            </address>
         </div>
     </nav>
     <!-- Masthead -->
@@ -60,10 +63,10 @@
                     <form>
                         <div class="form-row">
                             <div class="col-12 col-md-7 mb-2 mb-md-0">
-                                <input type="email"id="email" name="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                                <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Enter your email...">
                             </div>
                             <div class="col-12 col-md-5">
-                                <button  onclick="sendEmail()" class="btn btn-block btn-lg btn-primary" style="background-color:#213262">Join Our Mailing List!</button>
+                                <button onclick="sendEmail()" class="btn btn-block btn-lg btn-primary" style="background-color:#213262">Join Our Mailing List!</button>
                             </div>
                         </div>
                     </form>
@@ -72,39 +75,39 @@
         </div>
     </header>
     <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <!--<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                      <div class="features-icons-icon d-flex">
-                        <i class="icon-screen-desktop m-auto text-primary"></i>
-                      </div>
-                      <h3>Fully Responsive</h3>
-                      <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-                    </div>-->
-                </div>
-                <div class="col-lg-4">
-                    <!--<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                      <div class="features-icons-icon d-flex">
-                        <i class="icon-layers m-auto text-primary"></i>
-                      </div>
-                      <h3>Bootstrap 4 Ready</h3>
-                      <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-                    </div>-->
-                </div>
-                <div class="col-lg-4">
-                    <!--<div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                      <div class="features-icons-icon d-flex">
-                        <i class="icon-check m-auto text-primary"></i>
-                      </div>
-                      <h3>Easy to Use</h3>
-                      <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-                    </div>-->
-                </div>
+    <!--<section class="features-icons bg-light text-center">-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <!--<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex">
+                    <i class="icon-screen-desktop m-auto text-primary"></i>
+                  </div>
+                  <h3>Fully Responsive</h3>
+                  <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                </div>-->
+            </div>
+            <div class="col-lg-4">
+                <!--<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex">
+                    <i class="icon-layers m-auto text-primary"></i>
+                  </div>
+                  <h3>Bootstrap 4 Ready</h3>
+                  <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+                </div>-->
+            </div>
+            <div class="col-lg-4">
+                <!--<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex">
+                    <i class="icon-check m-auto text-primary"></i>
+                  </div>
+                  <h3>Easy to Use</h3>
+                  <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                </div>-->
             </div>
         </div>
-    </section>
+    </div>
+    <!--</section>-->
     <!-- Image Showcases -->
     <!--<section class="showcase">
       <div class="container-fluid p-0">
@@ -164,25 +167,25 @@
     <!-- Call to Action -->
     <!--<section class="call-to-action text-white text-center">-->
     <!--<div class="overlay"></div>-->
-    <!--<div class="container">-->
-    <!--<div class="row">
-      <div class="col-xl-9 mx-auto">
+   <div class="container">
+    <div class="row">
+      <!--<div class="col-xl-9 mx-auto">
         <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+      </div>-->
+
+            <!--<form>
+      <div class="form-row">
+        <div class="col-12 col-md-9 mb-2 mb-md-0">
+          <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+        </div>
+        <div class="col-12 col-md-3">
+          <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+        </div>
       </div>
-      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <form>
-          <div class="form-row">
-            <div class="col-12 col-md-9 mb-2 mb-md-0">
-              <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-            </div>
-            <div class="col-12 col-md-3">
-              <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>-->
-    <!--</div>-->
+    </form>-->
+        </div>
+    </div>
+    </div>
     <!--</section>-->
     <!-- Footer -->
     <footer class="footer bg-light">
@@ -216,11 +219,11 @@
                 </div>
                 <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item mr-3">
+                        <!--<li class="list-inline-item mr-3">
                             <a href="http://www.facebook.com/celacomtech" target="_blank">
                                 <i class="fab fa-facebook fa-2x fa-fw"></i>
                             </a>
-                        </li>
+                        </li>-->
                         <li class="list-inline-item mr-3">
                             <a href="http://www.twitter.com/celacomtech" target="_blank">
                                 <i class="fab fa-twitter-square fa-2x fa-fw"></i>
